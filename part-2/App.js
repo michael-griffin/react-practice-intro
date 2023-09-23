@@ -7,7 +7,7 @@ function App(){
   return (
     <div>
       <h1>Test header</h1>
-      <Tweet name={tweets[0].name} date={tweets[0].date} message={tweets[0].message} />
+      <Tweet {...tweets[0]} />
       <Tweet name={tweets[1].name} date={tweets[1].date} message={tweets[1].message} />
       <Tweet name={tweets[2].name} date={tweets[2].date} message={tweets[2].message} />
     </div>
