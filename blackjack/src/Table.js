@@ -1,9 +1,6 @@
-import { getDeck, drawCards } from './utils';
 import Hand from "./Hand";
 
-async function Table () {
- const deck = await getDeck();
- const cards = await drawCards(deck.deck_id, 2);
+function Table ({ cards }) {
 
  return (
   <div className="Table">

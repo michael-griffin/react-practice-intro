@@ -24,4 +24,5 @@ pokedex/node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-part-3/_ignore
+
+blackjack/_*
