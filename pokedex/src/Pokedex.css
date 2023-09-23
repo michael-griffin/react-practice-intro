@@ -1,4 +1,15 @@
 .Pokedex {
+  display : flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* .Pokedex {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+} */
+
+.Pokedex-win-msg {
+  text-align: center;
+  /* margin-left: auto; */
+  color: green;
 }
